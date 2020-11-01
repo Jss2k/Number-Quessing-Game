@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Number guessing game</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="keywords" content="" />
+    <meta name="discription" content="" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon"/>
+  </head>
+  <body>
+    <div class="app">
+    <h1 class="app__title">Игра: угадай цифру</h1>
+
+    <p class="app__description">Мы загадали число от 1 до 100. У вас есть максимум 10 попыток. Сможете ли Вы его отгадать? Мы будем помогать вам подсказкой - ваша догадка была меньше или больше загаданного числа. Удачи!</p>
+
+    <!-- <div class="form">
+      <label for="guessField">Введите предположение: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div> -->
+
+    <div class="app__quess quess">
+      <label for="guess__field">Введите предположение: </label>
+      <input type="text" id="guess__field" class="guess__field">
+      <input type="submit" value="Отправить предположение" class="guess__submit">
+    </div>
+
+    <div class="app__result result">
+      <p class="result__guesses"></p>
+      <p class="result__outcome"></p>
+      <p class="result__comparison"></p>
+    </div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  padding: 1rem;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  background: linear-gradient(#46cb35, #1d852b);
+}
+
+.app {
+  background: #fff;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 1px 30px 0 rgba(0,0,0,0.14), 0 0px 0px 0 rgba(0,0,0,.12), 0 0px 0px 0px rgba(0,0,0,.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.app__description {
+  text-align: start;
+}
+
+.quess, .result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#guess__field {
+  padding-left: 48%;
+}
+
+.guess__submit {
+  cursor: pointer;
+}
